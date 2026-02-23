@@ -1,0 +1,68 @@
+
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            font-style: italic;
+            font-size: 20px;
+
+            background-color: lightblue;
+            background-image: url("https://d2rqvd0kuag1qx.cloudfront.net/blog-15.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        #mainHeading {
+            color: green;
+            margin-bottom: 10px;
+            background-color: yellow;
+            
+        }
+
+        .prac {
+        background-color: pink;
+        padding: 10px;
+        border: 3px solid black;
+       }
+
+       .box p {
+        color: purple;
+        font-weight: bold;
+       }
+
+       .box {
+        border: 3px dotted black;
+        padding: 12px;
+        margin: 12px ;
+        margin-right: 500px;
+        background-color: beige;
+       }
+
+        .LehmanMusicBuilding {
+            width: 400px;
+            height: 320px;
+            border: 4px double black;
+            background-color: brown;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            background-color: blanchedalmond;
+        }
+
+        th, td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 0px;
+        }
+
+        p {
+            color: red;
+        }
+
+        p:hover {
+            color: blue;
+        }
+
+       
+
+   
