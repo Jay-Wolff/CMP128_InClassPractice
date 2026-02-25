@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Document type is html -->
+
+<html lang="en">
+<!-- stating that our html document is in english -->
+
+<head> <!-- head is not visible to the user and contains all the meta data -->
+
+    <title>CMP 128.CN01</title> <!-- title sets the title of the webpage -->
+
+    <meta charset="UTF-8"> <!-- meta for charset it is just the character set used for english lettering  -->
+    <!-- ^^ this includes emojis --> 
+
+    <meta name="Prof. Janissa" content="CMP 128.CN01"> <!-- tagging the website from the creator -->
+
+    <!-- base href="https://lehman.edu/" target="_blank" --> <!-- the base href is for links that you use in the future that will start with whatever it is equal to -->
+    <!-- The target is how you wish to open up href's in your site. Blank opens a new tab for the site -->
+
+    <link rel="stylesheet" href="./styles.css"> <!-- external css call -->
+    
+
+    <script>
+        // <script> allows us to write JavaScript
+        console.log("Welcome to CMP 128!");
+        //
+    </script>
+
+</head>
+
+<body> <!-- what is visible to the user -->
+
+    <h1 id="mainHeading">Welcome to CMP 128</h1>
+
+    <h2 style = color:crimson>HTML Basics</h2>
+
+    <p class="prac">We are learning web design here</p> <!-- -->
+
+    <hr> <!-- horizontal tag for a line  -->
+
+    <div class="box"> <!-- dividers change no look but allow html to be read in sections -->
+        <p> This is a <span>simple</span> example. </p>
+    </div>
+
+    <a href="https://lehman.edu/admissions">Visit Lehman College</a> <!-- adding a link for the user to click -->
+    <br>
+
+    <img class="LehmanMusicBuilding" src="https://www.lehman.edu/media/Admissions/images/Admissions-Main-Header-Photo.jpg" alt="Placeholder Image">
+    <!-- adding a alt image to the src allows a double check if the code is the issue or the image is whats wrong -->
+
+    <br> </br>
+
+    <img src="./images/GradK_J.jpg" alt="GradPhoto" class="circleImage">
+
+    <h3>Unordered List</h3>
+
+    <ul>  <!-- unordered list (default bullet points) -->
+        <li>CMP 128</li>  <!-- having each thing you want listed in <li> tags allow other bullets to be created -->
+        <li>CMP 167</li>
+        <li>CMP 168</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+
+    <ol> <!-- ordered list (numerical) -->
+        <li>HTML</li> <!-- having each thing you want listed in <li> tags allow other numbers to be created -->
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>Table Prac </h3>
+
+    <table>
+
+        <thead> <!-- heading for our table that is bolded -->
+            <tr> <!-- table row and the amount of theads that we have is the amount of columns-->
+                <th>Course</th> <!-- headers for the columns -->
+                <th>Credits</th> <!-- headers for the columns -->
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody> <!-- table body which means the words are not bolded -->
+            <!-- be careful with your tags for the amount of rows and columns you create -->
+            <tr>
+                <td> <img class="LehmanMusicBuilding" src="https://www.lehman.edu/media/Admissions/images/Admissions-Main-Header-Photo.jpg" alt="Placeholder Image">
+                </td>
+                <td>3</td>
+                <td>changes</td>
+            </tr>
+
+            <tr>
+                <td>CMP 168</td>
+                <td>4</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+</html>
