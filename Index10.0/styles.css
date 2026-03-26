@@ -1,0 +1,270 @@
+
+@media screen and (min-width: 480px) {
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            font-style: italic;
+            font-size: 20px;
+
+            background-color: lightblue;
+            background-image: url("https://d2rqvd0kuag1qx.cloudfront.net/blog-15.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }     
+  }    
+
+        .site-header {
+            padding: 20px;
+            text-align: center;
+            background-color: azure;
+            border-bottom: 4px solid;
+        }
+
+        #mainHeading {
+            color: green;
+            margin-bottom: 10px;
+            background-color: yellow;   
+        }
+
+        .shbox {
+            width: 90%;
+            background-color: aliceblue;
+            padding: 20px;
+            margin: 25px auto;
+            text-align: center;
+            font-style: normal;
+            border: 3px double black;
+        }
+        
+        .floatBoxMain {
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        .floatImage {
+            float: left;
+            width: 200px;
+            margin-right: 20px;
+            border: 4px solid black;
+            border-radius: 10px;
+        }
+
+        .floatBox {
+            float: left;
+            width: 35%;
+            padding: 15px;
+            border: 4px solid black;
+            background-color: white;
+            min-height: 220px;
+        }
+
+        .Left {
+            margin-right: 4%;
+        }
+
+        .Right {
+            margin-right: 0;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+       /* .topnav {
+        overflow: hidden;
+        margin-top: 5%;
+        width: 90%;
+        } */
+
+        .menu {
+            width: 90%;
+            background-color: beige;
+            border: 4px double blueviolet;
+            padding: 10px;
+            margin: 0 auto 25px auto;
+        }
+
+        .menu ul {
+           list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .menu li {
+            float: left;
+            margin-right: 25px;
+
+        }
+        
+        .menu a{
+            color: blue;
+            font-weight: bold;
+        }
+
+        .menu a:hover{
+            color:red;
+        }
+
+
+        .pracTwoBoxes {
+            width: 90%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .twoBoxes {
+            width: 45%;;
+        }
+
+        .prac {
+        float: left;
+        background-color: pink;
+        padding: 15px;
+        border: 3px solid black;
+        margin-right: 4%;
+       }
+
+       .box {
+        float: left;
+        border: 3px dotted black;
+        padding: 15px;
+        background-color: beige;
+       }
+
+       #spanPrac {
+        font-weight: lighter;
+       }
+      
+       .box p {
+        color: purple;
+        font-weight: bold;
+       }
+
+       .linkRow {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+       }
+
+       .listBox ul,
+       .listBox ol {
+            padding-left: 55px;
+       }
+
+       .contentFloat {
+            float: left;
+            width: 27%;
+            min-height: 500px;
+            margin-right: 1.5%;
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color:#f2f2f2;
+            border: 3px double black;
+       }
+
+        .layout {
+            display: block;
+        }
+       
+        .LehmanMusicBuilding {
+            width: 20vw;
+            height: 20vh;
+            border: 4px double black;
+            background-color: brown;
+            
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .LehmanMusicBuilding:hover {
+            transform: scale(1.08) rotate(2deg);
+            box-shadow: 0 15px 30px rgb(0,0,0.2);
+        }
+
+
+       .circleImage {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: white;
+            border: 4px double black;
+       }
+
+       .outerDiamond {
+            width: 250px;
+            height: 250px;
+
+            rotate: 45deg;
+            border: 4px double black;
+            margin: 30px auto;
+            margin-left: 50px;
+            overflow: hidden;
+       }
+
+       .diamondImage {
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+            rotate: -45deg;
+            margin-left: 20px;
+            transform: scale(1.52); 
+       }
+
+       /* margin: right top bottom left */
+
+       .tableBox{
+        margin-right: 0;
+       }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: blanchedalmond;
+        }
+
+        th, td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+        }
+
+        p {
+            color: red;
+        }
+
+        p:hover {
+            color: blue;
+        }
+
+        .jsBox button {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: red;
+            cursor: pointer;
+        }
+
+
+        #JavaScriptOutput {
+            background-color:blanchedalmond;
+            border: 2px solid black;
+            padding: 10px;
+            color: green;
+            font-weight: bolder;
+        }
+        
+        .site-footer {
+            text-align: right;
+            border-top: 4px solid;
+            background-color: azure;
+        }
+
+       
+
+    /* .menu{
+            background-color: beige;
+            border-bottom: 4px double blueviolet;
+        } */
