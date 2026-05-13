@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Document type is html -->
+
+<html lang="en">
+<!-- stating that our html document is in english -->
+
+<head> <!-- head is not visible to the user and contains all the meta data -->
+
+    <title>calculator start</title> <!-- title sets the title of the webpage -->
+
+    <meta charset="UTF-8"> <!-- meta for charset it is just the character set used for english lettering  -->
+    <!-- ^^ this includes emojis --> 
+
+    <meta name="Prof. Janissa" content="CMP 128.CN01"> <!-- tagging the website from the creator -->
+
+    
+    <!-- base href="https://lehman.edu/" target="_blank" --> <!-- the base href is for links that you use in the future that will start with whatever it is equal to -->
+    <!-- The target is how you wish to open up href's in your site. Blank opens a new tab for the site -->
+
+    <link rel="stylesheet" href="./styles.css"> <!-- external css call -->
+
+
+<!-- <script> allows us to write JavaScript-->
+    <script src="./script.js"></script>
+
+</head>
+
+
+<body>
+    <button><a href=index.html>First Page</a></button>
+
+    <header class="site-header">
+        <h1>Start of Calculator</h1>
+    </header>
+
+    <!--always make a section to contain the code-->
+    <section class="calculatorBox">
+
+        <p id="calcDisplay">0</p>
+
+        <!-- make sure to utilize the id to style the buttons-->
+        <button id="calcButton" onclick="pressNumber(1)">1</button>
+        <button onclick="pressNumber(2)">2</button>
+        <button onclick="pressNumber(3)">3</button>
+        <br>
+        <button onclick="setOperation('+')">+</button>
+        <button onclick="calculateResult()">=</button>
+        <button onclick="clearCalculator()">C</button>
+        <br>
+        <button onclick="pressNumber('.')">+</button>
+        
+
+    </section>
+
+
+    </body>
+    </html>
